@@ -14,8 +14,6 @@ const NavCom = () => {
           <li className="text-xl font-bold hover:underline"><Link href="/Views/services">Services</Link></li>
           <li className="text-xl font-bold hover:underline "><Link href="/Views/contact">Contact</Link></li>
         </ul>
-
-
       </div>
     </nav>
   );

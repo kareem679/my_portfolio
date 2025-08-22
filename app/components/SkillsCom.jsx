@@ -33,7 +33,7 @@ const SkillsCom = () => {
 
             <div className="w-[80%] m-auto">
                 <label className=" uppercase text-2xl ml-2 w-full font-bold" htmlFor="Next">Next</label>
-                <div className=" bg-neutral-800 text-center p-2 text-lg rounded-md" id="Next">70%</div>
+                <div className=" bg-neutral-800 text-center p-2 text-lg rounded-md" id="Next">50%</div>
             </div>
 
         </div>
