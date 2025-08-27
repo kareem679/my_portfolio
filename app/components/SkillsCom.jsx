@@ -1,8 +1,9 @@
-
+import AnimationPartCom from "./parts/AnimationPartCom"
 
 const SkillsCom = () => {
   return (
-    <div className="my-20">
+    <div className="my-20 reveal ">
+        <AnimationPartCom/>
         <h1 className="w-full my-24 text-center text-4xl md:text-5xl lg:text-6xl font-semibold">Skills</h1>
         <div className="flex flex-col gap-10 mt-32">
 

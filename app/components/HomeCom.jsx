@@ -1,8 +1,9 @@
-
+import AnimationPartCom from "./parts/AnimationPartCom"
 
 const HomeCom = ({src}) => {
   return (
-    <div className="  bg-blend-multiply w-full h-[100vh] bg-cover bg-center flex items-center bg-black/40 justify-center text-white " style={{ backgroundImage: `url(${src})` }}>
+    <div className="reveal   bg-blend-multiply w-full h-[100vh] bg-cover bg-center flex items-center bg-black/40 justify-center text-white " style={{ backgroundImage: `url(${src})` }}>
+      <AnimationPartCom/>
       <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:left-1/3 sm:left-1/2 sm:top-1/2">
         <h1 className="text-8xl font-semibold sm:break-words sm:text-center ">I'M Kareem</h1>
         <h3 className="text-4xl text-amber-300 font-semibold my-10 ">Web Developer</h3>

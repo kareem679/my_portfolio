@@ -1,9 +1,11 @@
 import Link from "next/link";
 import NavPartCom from "./parts/NavPartCom";
+import AnimationPartCom from "./parts/AnimationPartCom";
 const NavCom = () => {
   
   return (
-    <nav className="w-full fixed z-50">
+    <nav className="w-full reveal  fixed z-50">
+      <AnimationPartCom/>
       <div className="flex justify-between m-8">
         <a className="text-4xl font-bold" href="#">Kareem</a>
         <NavPartCom/>

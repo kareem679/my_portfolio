@@ -1,8 +1,8 @@
-import React from 'react'
-
+import AnimationPartCom from "./parts/AnimationPartCom"
 const ServicesCom = () => {
+  <AnimationPartCom/>
   return (
-<div className="w-full mx-auto px-4 mb-32 ">
+<div className="w-full reveal  mx-auto px-4 mb-32 ">
   <h1 className="w-full my-44 text-center text-4xl md:text-5xl lg:text-6xl font-semibold">
     Services
   </h1>

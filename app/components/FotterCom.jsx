@@ -1,11 +1,12 @@
-
+import AnimationPartCom from "./parts/AnimationPartCom"
 import Link from "next/link"
 const FotterCom = () => {
   return (
-    <div className="bg-black w-full p-10">
+    <div className="bg-black reveal  w-full p-10">
+        <AnimationPartCom/>
         <div className="flex justify-between w-full">
-
-            <div >
+            
+            <div>
                 <h1 className="text-6xl">Kareem</h1>
                 <h4 className="text-xl ">Front-End Developer with responsive design.</h4>
                 <ul className="flex gap-5 my-5">

@@ -1,7 +1,9 @@
+import AnimationPartCom from "./parts/AnimationPartCom"
 const ContactCom = () => {
   return (
-<div className="mb-20 px-4 max-w-screen-xl mx-auto">
-  <h1 className="w-full my-16 md:my-24 text-center text-4xl md:text-5xl lg:text-6xl font-semibold">
+<div className="mb-20 reveal  px-4 max-w-screen-xl mx-auto">
+  <AnimationPartCom/>
+  <h1 className="w-full my-16  md:my-24 text-center text-4xl md:text-5xl lg:text-6xl font-semibold">
     Contact
   </h1>
 

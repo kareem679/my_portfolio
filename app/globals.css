@@ -5,3 +5,9 @@ input:focus ,textarea:focus{
     transition: 0.3s;
     box-shadow: 4px 8px 24px rgba(0, 149, 255, 0.787);
 }
+.reveal{
+    @apply opacity-0 translate-y-10 transition-all duration-700
+}
+.reveal.show {
+  @apply opacity-100 translate-y-0;
+}
