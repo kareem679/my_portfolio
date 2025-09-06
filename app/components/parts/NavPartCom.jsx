@@ -26,6 +26,7 @@ const NavPartCom = () => {
           <li className="text-xl cursor-pointer font-bold underline" onClick={() => setisset(false)}><Link href="/Views/skills">Skills</Link></li>
           <li className="text-xl cursor-pointer font-bold underline" onClick={() => setisset(false)}><Link href="/Views/services">Services</Link></li>
           <li className="text-xl cursor-pointer font-bold underline" onClick={() => setisset(false)}><Link href="/Views/contact">Contact</Link></li>
+          <li className="text-xl cursor-pointer font-bold underline" onClick={() => setisset(false)}><Link href="/Views/projects">Projects</Link></li>
         </ul>
       )}
     </div>

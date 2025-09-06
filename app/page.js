@@ -4,6 +4,7 @@ import AboutCom from "./components/AboutCom";
 import SkillsCom from "./components/SkillsCom";
 import ServicesCom from "./components/ServicesCom";
 import ContactCom from "./components/ContactCom";
+import ProjectsCom from "./components/ProjectsCom";
 export default function Home() {
   const img = "/imgs/Hero.jpg"
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <AboutCom/>
     <SkillsCom/>
     <ServicesCom/>
+    <ProjectsCom/>
     <ContactCom/>
     
     </>
