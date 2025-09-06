@@ -4,7 +4,7 @@ import AnimationPartCom from "./parts/AnimationPartCom";
 const NavCom = () => {
   
   return (
-    <nav className="w-full reveal  fixed z-50">
+    <nav className="w-full reveal  fixed z-50 top-0">
       <AnimationPartCom/>
       <div className="flex justify-between m-8">
         <a className="text-4xl font-bold" href="#">Kareem</a>
@@ -15,6 +15,7 @@ const NavCom = () => {
           <li className="text-xl font-bold hover:underline"><Link href="/Views/skills">Skills</Link></li>
           <li className="text-xl font-bold hover:underline"><Link href="/Views/services">Services</Link></li>
           <li className="text-xl font-bold hover:underline "><Link href="/Views/contact">Contact</Link></li>
+          <li className="text-xl font-bold hover:underline"><Link href="/Views/projects">Projects</Link></li>
         </ul>
       </div>
     </nav>
