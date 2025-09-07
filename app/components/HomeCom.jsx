@@ -8,7 +8,7 @@ const HomeCom = ({src}) => {
         <h1 className="text-8xl font-semibold sm:break-words sm:text-center ">I'M Kareem</h1>
         <h3 className="text-4xl text-amber-300 font-semibold my-10 ">Web Developer</h3>
         <ul className="flex gap-5 my-5">
-          <li className="text-5xl text-gray-400 "><a href="https://github.com/Kareemlol1234"  className="cursor-pointer"><i className="fa-brands fa-github"></i></a></li>
+          <li className="text-5xl text-gray-400 "><a href="https://github.com/kareem679"  className="cursor-pointer"><i className="fa-brands fa-github"></i></a></li>
           <li className="text-5xl text-green-500"><a href="https://wa.me/201006721385" className="cursor-pointer"><i className="fa-brands fa-whatsapp"></i></a></li>
           <li className="text-5xl text-blue-600"><a href="https://www.facebook.com/profile.php?id=61577462731094&sk=about_work_and_education" className="cursor-pointer"><i className="fa-brands fa-facebook"></i></a></li>
           <li className="text-5xl text-blue-400"><a href="https://www.linkedin.com/in/kareem-diaa-4a2626370/" className="cursor-pointer"><i className="fa-brands fa-linkedin-in"></i></a></li>
