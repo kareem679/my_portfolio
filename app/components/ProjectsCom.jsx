@@ -1,5 +1,5 @@
-import Image from "next/image"
-import AnimationPartCom from "./parts/AnimationPartCom"
+import Image from "next/image";
+import AnimationPartCom from "./parts/AnimationPartCom";
 
 const ProjectsCom = () => {
   return (
@@ -10,52 +10,82 @@ const ProjectsCom = () => {
       </h1>
 
       <div className="grid md:grid-cols-3 gap-10">
-        
         <div className="relative group shadow-lg bg-white rounded-2xl overflow-hidden transition-transform duration-300 hover:-translate-y-3">
-          <Image src="/imgs/E-commerce.png" alt="E-commerce" width={800} height={400} className="w-full h-56 object-cover"/>
-          <a href="https://github.com/kareem679/E-commerce" className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span className="px-6 py-3 bg-purple-900 hover:bg-purple-950 text-white rounded-lg shadow-md">View Details</span>
-          </a>
-          <div className="p-6">
-            <h2 className="text-2xl font-semibold uppercase">E-commerce</h2>
-            <p className="mt-4 text-gray-500 text-sm leading-relaxed">
-                A fully functional online store with product listings, shopping cart, and order management to simulate a real shopping experience.
-            </p>
-          </div>
-        </div>
-
-        <div className="relative group shadow-lg bg-white rounded-2xl overflow-hidden transition-transform duration-300 hover:-translate-y-3">
-          <Image src="/imgs/Todo.png" alt="E-commerce" width={800} height={400} className="w-full h-56 object-cover"/>
-          <a href="https://github.com/kareem679/Todo" className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span className="px-6 py-3 bg-purple-900 hover:bg-purple-950 text-white rounded-lg shadow-md">View Details</span>
+          <Image
+            src="/imgs/Todo.png"
+            alt="E-commerce"
+            width={800}
+            height={400}
+            className="w-full h-56 object-cover"
+          />
+          <a
+            href="https://github.com/kareem679/Todo"
+            className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <span className="px-6 py-3 bg-purple-900 hover:bg-purple-950 text-white rounded-lg shadow-md">
+              View Details
+            </span>
           </a>
           <div className="p-6">
             <h2 className="text-2xl font-semibold uppercase">Todo List</h2>
             <p className="mt-4 text-gray-500 text-sm leading-relaxed">
-                A simple task management app that helps you add, organize, and track daily tasks easily to stay productive.
+              A simple task management app that helps you add, organize, and
+              track daily tasks easily to stay productive.
             </p>
           </div>
         </div>
 
-
         <div className="relative group shadow-lg bg-white rounded-2xl overflow-hidden transition-transform duration-300 hover:-translate-y-3">
-          <Image src="/imgs/Users.png" alt="E-commerce" width={800} height={400} className="w-full h-56 object-cover"/>
-          <a href="https://github.com/kareem679/Login" className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span className="px-6 py-3 bg-purple-900 hover:bg-purple-950 text-white rounded-lg shadow-md">View Details</span>
+          <Image
+            src="/imgs/E-commerce.png"
+            alt="E-commerce"
+            width={800}
+            height={400}
+            className="w-full h-56 object-cover"
+          />
+          <a
+            href="https://github.com/kareem679/E-commerce"
+            className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <span className="px-6 py-3 bg-purple-900 hover:bg-purple-950 text-white rounded-lg shadow-md">
+              View Details
+            </span>
+          </a>
+          <div className="p-6">
+            <h2 className="text-2xl font-semibold uppercase">E-commerce</h2>
+            <p className="mt-4 text-gray-500 text-sm leading-relaxed">
+              A fully functional online store with product listings, shopping
+              cart, and order management to simulate a real shopping experience.
+            </p>
+          </div>
+        </div>
+        <div className="relative group shadow-lg bg-white rounded-2xl overflow-hidden transition-transform duration-300 hover:-translate-y-3">
+          <Image
+            src="/imgs/Users.png"
+            alt="E-commerce"
+            width={800}
+            height={400}
+            className="w-full h-56 object-cover"
+          />
+          <a
+            href="https://github.com/kareem679/Login"
+            className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <span className="px-6 py-3 bg-purple-900 hover:bg-purple-950 text-white rounded-lg shadow-md">
+              View Details
+            </span>
           </a>
           <div className="p-6">
             <h2 className="text-2xl font-semibold uppercase">Users system</h2>
             <p className="mt-4 text-gray-500 text-sm leading-relaxed">
-                A user management system that includes registration, login, and profile handling with secure and organized logic.
+              A user management system that includes registration, login, and
+              profile handling with secure and organized logic.
             </p>
           </div>
         </div>
-
-       
-      
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectsCom
+export default ProjectsCom;
