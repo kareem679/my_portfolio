@@ -8,7 +8,7 @@ const FotterCom = () => {
             
             <div>
                 <h1 className="text-6xl">Kareem</h1>
-                <h4 className="text-xl ">Front-End Developer with responsive design.</h4>
+                <h4 className="text-xl ">Web Developer with responsive design and secure backend.</h4>
                 <ul className="flex gap-5 my-5">
                     <li className="text-3xl"><a href="https://github.com/Kareemlol1234"  className="cursor-pointer"><i className="fa-brands fa-github"></i></a></li>
                     <li className="text-3xl"><a href="https://wa.me/201006721385" className="cursor-pointer"><i className="fa-brands fa-whatsapp"></i></a></li>
@@ -34,7 +34,7 @@ const FotterCom = () => {
 
 
         <div className="flex flex-col m-5 ">
-            <h4 className="text-xl">Skilled in HTML, CSS, JavaScript & Vue.js. I build modern and fast websites.</h4>
+            <h4 className="text-xl">Skilled in HTML, CSS, JavaScript & Next + React , Express . I build modern and fast websites.</h4>
             <h2 className="text-lg">Contact: " kareem123456work@gmail.com" or "01006721385"</h2>
             <h3 className="text-md">2024 Copyrights @Kareem.dev</h3>
             <div></div>
