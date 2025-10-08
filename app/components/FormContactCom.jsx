@@ -1,13 +1,13 @@
-"use client"
-import { useForm, ValidationError } from '@formspree/react';
-import { useEffect } from 'react';
-import { toast } from 'react-toastify';
+"use client";
+import { useForm, ValidationError } from "@formspree/react";
+import { useEffect } from "react";
+import { toast } from "react-toastify";
 const FormContactCom = () => {
-    const [state, handleSubmit] = useForm("xyzndova");
-    useEffect(() => {
-        if (state.succeeded) {
-        toast.success("✅ Your message has been sent successfully!");
-        }
+  const [state, handleSubmit] = useForm("xyzndova");
+  useEffect(() => {
+    if (state.succeeded) {
+      toast.success("✅ Your message has been sent successfully!");
+    }
   }, [state.succeeded]);
   return (
     <form

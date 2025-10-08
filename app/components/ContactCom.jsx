@@ -20,7 +20,7 @@ const ContactCom = () => {
           </p>
         </div>
 
-        <FormContactCom/>
+        <FormContactCom />
       </div>
     </div>
   );
