@@ -10,9 +10,9 @@ const FotterCom = () => {
                 <h1 className="text-6xl">Kareem</h1>
                 <h4 className="text-xl ">Web Developer with responsive design and secure backend.</h4>
                 <ul className="flex gap-5 my-5">
-                    <li className="text-3xl"><a href="https://github.com/Kareemlol1234"  className="cursor-pointer"><i className="fa-brands fa-github"></i></a></li>
+                    <li className="text-3xl"><a href="https://github.com/kareem679"  className="cursor-pointer"><i className="fa-brands fa-github"></i></a></li>
                     <li className="text-3xl"><a href="https://wa.me/201006721385" className="cursor-pointer"><i className="fa-brands fa-whatsapp"></i></a></li>
-                    <li className="text-3xl"><a href="https://www.facebook.com/profile.php?id=61577462731094&sk=about_work_and_education" className="cursor-pointer"><i className="fa-brands fa-facebook"></i></a></li>
+                    <li className="text-3xl"><a href="https://www.facebook.com/kareem.diaa.9404" className="cursor-pointer"><i className="fa-brands fa-facebook"></i></a></li>
                     <li className="text-3xl"><a href="https://www.linkedin.com/in/kareem-diaa-4a2626370/" className="cursor-pointer"><i className="fa-brands fa-linkedin-in"></i></a></li>
                 </ul>
             </div>
