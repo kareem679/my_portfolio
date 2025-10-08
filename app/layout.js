@@ -3,7 +3,7 @@ import "./globals.css";
 import  Head from "./head"
 import NavCom from "./components/NavCom";
 import FotterCom from './components/FotterCom';
-
+import { ToastContainer } from 'react-toastify';
 
 const ptSerif = PT_Serif({
   subsets: ['latin'],
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <Head/>
 
       <body className={ptSerif.className} data-theme="dark">
+        <ToastContainer/>
         <NavCom />
         {children}
         <FotterCom/>
