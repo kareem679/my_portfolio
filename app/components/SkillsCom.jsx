@@ -19,7 +19,7 @@ const SkillsCom = () => {
 
             <div className="w-[80%] m-auto">
                 <label className=" uppercase text-2xl ml-2 w-full font-bold" htmlFor="javascript">javascript</label>
-                <div className=" bg-yellow-400 text-center p-2 text-lg rounded-md" id="javascript">85%</div>
+                <div className=" bg-yellow-400 text-center p-2 text-lg rounded-md" id="javascript">95%</div>
             </div>
 
             <div className="w-[80%] m-auto">
@@ -36,7 +36,10 @@ const SkillsCom = () => {
                 <label className=" uppercase text-2xl ml-2 w-full font-bold" htmlFor="Next">Next</label>
                 <div className=" bg-neutral-800 text-center p-2 text-lg rounded-md" id="Next">80%</div>
             </div>
-
+            <div className="w-[80%] m-auto">
+                <label className=" uppercase text-2xl ml-2 w-full font-bold" htmlFor="javascript">Express</label>
+                <div className=" bg-white text-center p-2 text-lg text-black rounded-md" id="javascript">80%</div>
+            </div>
         </div>
     </div>
   )
