@@ -42,18 +42,21 @@ const HomeCom = ({ src }) => {
             </a>
           </li>
         </ul>
-        <Link href="/Views/about">
-          <button className="px-6 py-3 mt-5 text-black text-2xl font-semibold rounded-md bg-gradient-to-r from-teal-300 to-blue-300 hover:from-teal-500 hover:to-blue-600  shadow-lg shadow-teal-500/30 hover:shadow-teal-500/60  transition-all duration-300 hover:scale-105 cursor-pointer">
-            Show More
-          </button>
-        </Link>
-        <a
-          download="Kareem_Diaa_CV_FullStack.pdf"
-          href="/Kareem_Diaa_CV_FullStack.pdf"
-          className="mx-10  font-semibold px-6 py-3 text-2xl rounded-md bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white shadow-lg shadow-purple-500/30 transition-all duration-300  hover:scale-105 hover:shadow-purple-500/60 hover:from-blue-600 hover:to-pink-600 "
-        >
-          Download CV
-        </a>
+        <div className="flex flex-wrap gap-6">
+          <Link href="/Views/about">
+            <button className="px-6 py-3 mt-5 text-black text-2xl font-semibold rounded-md bg-gradient-to-r from-teal-300 to-blue-300 hover:from-teal-500 hover:to-blue-600 shadow-lg shadow-teal-500/30 hover:shadow-teal-500/60 transition-all duration-300 hover:scale-105 cursor-pointer">
+              Show More
+            </button>
+          </Link>
+
+          <a
+            download="Kareem_Diaa_CV_FullStack.pdf"
+            href="/Kareem_Diaa_CV_FullStack.pdf"
+            className="mt-5 font-semibold px-6 py-3 text-2xl rounded-md bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white shadow-lg shadow-purple-500/30 transition-all duration-300 hover:scale-105 hover:shadow-purple-500/60 hover:from-blue-600 hover:to-pink-600"
+          >
+            Download CV
+          </a>
+        </div>
       </div>
     </div>
   );
