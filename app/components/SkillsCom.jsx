@@ -1,118 +1,40 @@
 import AnimationPartCom from "./parts/AnimationPartCom";
 
 const SkillsCom = () => {
+  const skills = [
+    { name: "HTML", level: "Advanced" },
+    { name: "CSS", level: "Advanced" },
+    { name: "JavaScript", level: "Advanced" },
+    { name: "React", level: "Intermediate" },
+    { name: "Tailwind CSS", level: "Advanced" },
+    { name: "Next.js", level: "Intermediate" },
+    { name: "php", level: "Advanced" },
+    { name: "Laravel", level: "Advanced" },
+
+  ];
+
   return (
-    <div className="my-20 reveal ">
+    <section className="my-32 px-6 md:px-20 text-center reveal">
       <AnimationPartCom />
-      <h1 className="w-full my-24 text-center text-4xl md:text-5xl lg:text-6xl font-semibold">
-        Skills
-      </h1>
-      <div className="flex flex-col gap-10 mt-32">
-        <div className="w-[80%] m-auto">
-          <label
-            className=" uppercase text-2xl ml-2 w-full font-bold"
-            htmlFor="html"
-          >
-            html
-          </label>
-          <div
-            className=" bg-orange-500 text-center p-2 text-lg rounded-md"
-            id="html"
-          >
-            95%
-          </div>
-        </div>
 
-        <div className="w-[80%] m-auto">
-          <label
-            className=" uppercase text-2xl ml-2 w-full font-bold"
-            htmlFor="css"
-          >
-            css
-          </label>
-          <div
-            className=" bg-sky-500 text-center p-2 text-lg rounded-md"
-            id="css"
-          >
-            90%
-          </div>
-        </div>
+      <h2 className="text-4xl md:text-5xl font-bold mb-6">Skills</h2>
+      <p className="text-gray-400 max-w-2xl mx-auto mb-16">
+        Technologies and tools I use to build fast, responsive, and modern web applications.
+      </p>
 
-        <div className="w-[80%] m-auto">
-          <label
-            className=" uppercase text-2xl ml-2 w-full font-bold"
-            htmlFor="javascript"
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-items-center">
+        {skills.map((skill) => (
+          <div  key={skill.name}
+            className="group flex flex-col items-center gap-2 p-4 rounded-xl border bg-[#112240] border-gray-800 hover:border-cyan-400 hover:bg-gray-900 transition-all duration-300 w-full max-w-[180px]"
           >
-            javascript
-          </label>
-          <div
-            className=" bg-yellow-400 text-center p-2 text-lg rounded-md"
-            id="javascript"
-          >
-            95%
+            <span className="text-xl font-semibold text-white group-hover:text-cyan-400 transition-colors">
+              {skill.name}
+            </span>
+            <span className="text-sm text-gray-400">{skill.level}</span>
           </div>
-        </div>
-
-        <div className="w-[80%] m-auto">
-          <label
-            className=" uppercase text-2xl ml-2 w-full font-bold"
-            htmlFor="React"
-          >
-            React
-          </label>
-          <div
-            className=" bg-cyan-400 text-center p-2 text-lg rounded-md"
-            id="React"
-          >
-            80%
-          </div>
-        </div>
-
-        <div className="w-[80%] m-auto">
-          <label
-            className=" uppercase text-2xl ml-2 w-full font-bold"
-            htmlFor="tailwind"
-          >
-            tailwind
-          </label>
-          <div
-            className=" bg-teal-400 text-center p-2 text-lg rounded-md"
-            id="tailwind"
-          >
-            90%
-          </div>
-        </div>
-
-        <div className="w-[80%] m-auto">
-          <label
-            className=" uppercase text-2xl ml-2 w-full font-bold"
-            htmlFor="Next"
-          >
-            Next
-          </label>
-          <div
-            className=" bg-neutral-800 text-center p-2 text-lg rounded-md"
-            id="Next"
-          >
-            80%
-          </div>
-        </div>
-        <div className="w-[80%] m-auto">
-          <label
-            className=" uppercase text-2xl ml-2 w-full font-bold"
-            htmlFor="javascript"
-          >
-            Express
-          </label>
-          <div
-            className=" bg-white text-center p-2 text-lg text-black rounded-md"
-            id="javascript"
-          >
-            80%
-          </div>
-        </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 };
 
