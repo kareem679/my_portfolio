@@ -53,7 +53,7 @@ const ServicesCom = () => {
         </div>
 
         <Image
-          src="/imgs/laravel.avif"
+          src="/imgs/backend.avif"
           width={500}
           height={500}
           alt="laravel backend image"
