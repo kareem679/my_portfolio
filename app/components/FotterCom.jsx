@@ -63,13 +63,13 @@ const FotterCom = () => {
 
       <div className="flex flex-col m-5 ">
         <h4 className="text-xl">
-          Skilled in HTML, CSS, JavaScript & Next + React , Express . I build
+          Skilled in HTML, CSS, PHP & Next + React , Laravel . I build
           modern and fast websites.
         </h4>
         <h2 className="text-lg">
           Contact: " kareem123456work@gmail.com" or "01006721385"
         </h2>
-        <h3 className="text-md">2024 Copyrights @Kareem.dev</h3>
+        <h3 className="text-md">2025 Copyrights @Kareem.dev</h3>
         <div></div>
       </div>
     </div>
