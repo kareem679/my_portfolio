@@ -40,22 +40,23 @@ const ServicesCom = () => {
           <h2 className="text-4xl font-bold mb-2">Backend Services</h2>
           <h3 className="text-2xl underline font-semibold mb-4">My Services</h3>
           <p className="tracking-tight text-lg leading-relaxed">
-            I provide robust backend development using Node.js <br /> and
-            Express.js, with secure APIs and efficient database management{" "}
-            <br /> using MongoDB and Mongoose. I focus on writing br clean,
-            scalable, and well-documented code that <br /> ensures high
-            performance and reliability. Whether <br /> it’s authentication,
-            data handling, or <br />
-            connecting front-end with the server, I make sure everything runs
-            smoothly and securely.
+            I build powerful backend systems using{" "}
+            <span className="text-red-500 font-semibold">Laravel</span>, a
+            modern PHP framework known for its elegant syntax and high
+            performance. <br />
+            I focus on creating clean, secure, and scalable APIs, efficient
+            database structures, and reliable authentication systems. <br />
+            With Laravel’s built-in tools and my experience, I ensure smooth
+            communication between the front-end and backend, <br /> providing a
+            fast and stable experience for users.
           </p>
         </div>
 
         <Image
-          src="/imgs/backend.avif"
+          src="/imgs/laravel.avif"
           width={500}
           height={500}
-          alt="backend image"
+          alt="laravel backend image"
           className="rounded-2xl shadow-lg"
         />
       </div>
