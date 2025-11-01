@@ -50,7 +50,7 @@ const HomeCom = ({ src }) => {
           </Link>
 
           <a
-            download="Kareem_Diaa_CV_FullStack.pdf"
+            download="KareemDiaaCV.pdf"
             href="/Kareem_Diaa_CV_FullStack.pdf"
             className="mt-5 font-semibold px-6 py-3 text-2xl rounded-md bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white shadow-lg shadow-purple-500/30 transition-all duration-300 hover:scale-105 hover:shadow-purple-500/60 hover:from-blue-600 hover:to-pink-600"
           >
