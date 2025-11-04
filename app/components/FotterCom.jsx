@@ -40,7 +40,7 @@ const FotterCom = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="hidden  lg:inline">
           <ul className="flex flex-col gap-3">
             <li className="text-xl font-bold hover:underline">
               <Link href="/">Home</Link>
