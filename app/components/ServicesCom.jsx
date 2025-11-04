@@ -40,15 +40,15 @@ const ServicesCom = () => {
           <h2 className="text-4xl font-bold mb-2">Backend Services</h2>
           <h3 className="text-2xl underline font-semibold mb-4">My Services</h3>
           <p className="tracking-tight text-lg leading-relaxed">
-            I build powerful backend systems using{" "}
-            <span className="text-red-500 font-semibold">Laravel</span>, a
-            modern PHP framework known for its elegant syntax and high
-            performance. <br />
-            I focus on creating clean, secure, and scalable APIs, efficient
-            database structures, and reliable authentication systems. <br />
-            With Laravel’s built-in tools and my experience, I ensure smooth
-            communication between the front-end and backend, <br /> providing a
-            fast and stable experience for users.
+            I’m currently building my backend skills using{" "}
+            <span className="text-red-500 font-semibold">PHP</span> and{" "}
+            <span className="text-red-500 font-semibold">Laravel</span>. <br />
+            I have a solid understanding of Laravel fundamentals such as
+            routing, controllers, models, and database relationships. <br />
+            I can build simple and functional APIs, manage databases, and handle
+            basic authentication. <br />
+            My goal is to keep improving and mastering Laravel to deliver more
+            complex and professional backend solutions over time.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const ServicesCom = () => {
           src="/imgs/backend.avif"
           width={500}
           height={500}
-          alt="laravel backend image"
+          alt="PHP and Laravel development image"
           className="rounded-2xl shadow-lg"
         />
       </div>

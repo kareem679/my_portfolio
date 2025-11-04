@@ -7,7 +7,7 @@ const AboutCom = () => {
       <h1 className="w-full my-24 text-center text-4xl md:text-5xl lg:text-6xl font-semibold">
         About
       </h1>
-      <div className="grid grid-cols-1  lg:grid-cols-2 gap-8 place-items-center">
+      <div className="grid grid-cols-1  lg:grid-cols-3 gap-8 place-items-center">
         <div
           className="reveal bg-amber-50 w-3/4  h-[500px] lg:min-h-[600px] rounded-md p-4"
           style={{ boxShadow: "4px 8px 20px rgba(94, 234, 212, 0.4)" }}
@@ -77,29 +77,7 @@ const AboutCom = () => {
           </div>
         </div>
 
-        <div
-          className="reveal bg-amber-50 w-3/4  h-[500px] lg:min-h-[600px] rounded-md p-4"
-          style={{ boxShadow: "4px 8px 20px rgba(94, 234, 212, 0.4)" }}
-        >
-          <div className="flex justify-center h-[40%]">
-            <img
-              className="rounded-full m-3"
-              src="/imgs/backendreal.avif"
-              alt="Backend and Security"
-            />
-          </div>
-          <div className="text-center text-black px-2 ">
-            <h2 className="text-2xl md:text-3xl font-semibold mt-10 underline">
-              Backend & Security
-            </h2>
-            <p className="text-base md:text-md mt-10 lg:mt-28 lg:text-lg">
-              I developed the backend using Express.js and MongoDB, focusing on
-              authentication, order management, and secure APIs. Added
-              validation, error handling, and JWT protection to keep the system
-              safe and efficient.
-            </p>
-          </div>
-        </div>
+
       </div>
     </div>
   );
