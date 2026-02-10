@@ -69,7 +69,7 @@ const ProjectsCom = () => {
             className="w-full h-56 object-cover"
           />
           <a
-            href="https://github.com/kareem679/Dr-Kamal-Web"
+            href="https://dr-kamal-web.vercel.app/"
             className="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
             <span className="px-6 py-3 bg-purple-900 hover:bg-purple-950 text-white rounded-lg shadow-md">
